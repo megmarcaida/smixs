@@ -121,6 +121,10 @@
                     <input class="form-control " type="text" name="lastname" id="lastname" value="{{ Request::old ('lastname')}}" >
                 </div>
                 <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+                    <label for="email">Middle Name</label>
+                    <input class="form-control " type="text" name="middlename" id="middlename" value="{{ Request::old ('middlename')}}" >
+                </div>
+                <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
                     <label for="password">Password</label>
                     <input class="form-control" type="password" name="password" id="password" value="{{ Request::old('password')}}">
                 </div>
