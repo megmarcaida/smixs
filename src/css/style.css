@@ -1,0 +1,142 @@
+.body{
+	margin-top:5%;
+	
+}
+
+.new-post{
+	padding: 16px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.new-post header,
+.posts header{
+	margin-bottom: 20px;
+}
+
+.posts .post{
+	padding-left: 10px;
+	box-shadow: 1px 1px 1px 1px #888;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.own{
+	border-left: 3px solid #a21b24;
+}
+
+.posts .post .info{
+	color: #aaa;
+	font-style: italic;
+}
+
+.error{
+	border:0px solid red;
+	/*background-color:#f9b5af;*/
+	color:red;
+}
+
+.error ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.error,.success{
+	text-align: center;
+}
+
+
+.success{
+	border:0px solid green;
+	/*background-color:#d1f9da;*/
+	color:green;
+}
+
+
+/*FOR NAVIGATION*/
+.navbar-latte{
+	background-color: #ecd6a2;
+}
+
+.profile-pic{
+	width: 20px;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.parent-nav{
+	background: #888;
+}
+
+.parent-nav-text{
+	color: #fff;
+}
+
+ol li{
+	list-style: none;
+	padding: 5px;
+}
+
+ol li:hover{
+	background: #999;
+	color: #fff;
+}
+
+ol li a{
+	text-decoration: none;
+	color: #000;
+}
+
+ol li a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* Login Form*/
+.login-container{
+  margin-top: 50px; 
+}
+
+.login-form{
+  width: 100%;
+  background-color: #fff;
+  padding: 25px;
+  margin: auto;
+}
+
+.login-elements{
+  border-radius: 0px;
+  margin: 10px 0px;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px;}
+.right-addon input { padding-right: 30px; }
+
+/*For Hiding any element*/
+.hide-item{
+	display:none;
+}
+
+
+ol ul li a:hover {
+visibility:visible;
+}
