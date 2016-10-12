@@ -106,7 +106,6 @@
             <h4 class="modal-title">Register</h4>
           </div>
           <div class="modal-body">
-            <h3>Register</h3>
             <form action="{{ route('register') }}" method="post">
                 <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
                     <label for="email">Email</label>
